@@ -13,9 +13,9 @@ body {
 
 .calculator {
     display: inline-block;
-    border: 1px solid #2a2626;
+    border: 3px solid #2a2626;
     padding: 10px;
-    background-image: url("tech.png") ;
+    border-radius: 5px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -25,9 +25,9 @@ body {
 
 .screen {
     padding: 10px;
-    background-color: #6e799a3f;
+    background-color: #45537e3f;
     margin-bottom: 18px;
-    border-radius: 7px;
+    border-radius: 5px;
 }
 
 .buttons {
@@ -35,15 +35,15 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 9fr);
     grid-gap: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 button {
     background-color: #45537e3f;
     padding: 10px;
-    border: 1px solid #220e0e;
-    font-size: 18px;
-    border-radius: 7px;
+    border: 1px solid #1a0e0e;
+    font-size: 22px;
+    border-radius: 5px;
 }
 
 button:hover {
